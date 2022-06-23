@@ -328,6 +328,7 @@ font-family: 'Athiti', sans-serif;
     gap: 10px;
     padding: 20px;
     
+    
     grid-template-areas: "txt txt img1 img1"
                          "img2 img2 img1 img1";
 }
@@ -437,6 +438,36 @@ font-family: 'Athiti', sans-serif;
     align-self: center;
     text-align: center;
     
+    
+}
+
+@media (max-width:485px){
+
+    .productDiv2 div p{
+        font-size: 14px;
+    }
+    .productDiv1 div p{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width:440px){
+
+    .productDiv2 div p{
+        font-size: 12px;
+    }
+    .productDiv1 div p{
+        font-size: 12px;
+    }
+}
+@media (max-width:375px){
+
+    .productDiv2 div p{
+        font-size: 10px;
+    }
+    .productDiv1 div p{
+        font-size: 10px;
+    }
 }
 
 .productDiv2 h3{
