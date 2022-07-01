@@ -97,9 +97,10 @@ footer{
 }
 
 footer p{
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     margin: 10px;
+    padding: 15px;
     
     
 }
@@ -249,6 +250,7 @@ footer div h5{
     
     color: white;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 3px 3px #000000;
     text-align: center;
     padding: 60px;
 
@@ -332,8 +334,8 @@ font-family: 'Athiti', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2,1fr);
-    gap: 10px;
-    padding: 20px;
+    gap: 30px;
+    padding: 0px 90px 90px 90px;
     
     
     grid-template-areas: "txt txt img1 img1"
@@ -405,8 +407,8 @@ font-family: 'Athiti', sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2,1fr);
-    gap: 10px;
-    padding: 20px 20px 20px 20px;
+    gap: 30px;
+    padding: 0px 90px 90px 90px;
     grid-template-areas: "img3 img3 txt2 txt2"
                          "img4 img5 img5 img5";
                          
@@ -715,10 +717,17 @@ border-radius: 10px;
 
 .supportHeader p{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+}
+.supportHeader a{
+    font-family: 'Montserrat', sans-serif;
 
     margin: 10px;
     font-weight: 700;
 }
+
 
 .supportName{
     margin: 5px;
@@ -742,7 +751,7 @@ border-radius: 10px;
 }
 
 .supportSend{
-margin: 10px 10px 250px 10px;
+margin: 10px 10px 350px 10px;
 width: 100px;
 align-self: center;
 border-radius: 15px;
@@ -815,4 +824,8 @@ padding: 10px;
         font-size: 8px;
     
     }
+}
+
+.faqAcc {
+    padding: 15px 15px 450px 15px;
 }
