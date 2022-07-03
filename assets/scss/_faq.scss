@@ -1,0 +1,41 @@
+
+.faqHeader{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    margin: 7px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.faqDiv{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+
+    li{
+   
+        padding: 10px 15px 10px 15px;
+
+        h3{
+            background-color: rgb(12, 12, 12);
+            color: white;
+            padding: 5px;
+            text-align: center;
+            border-radius: 10px;
+           
+        }
+        p{
+    
+            padding: 10px 5px 5px 15px;
+            text-align: center;
+            font-weight: 700;
+           
+        }
+    }
+}
+
+.faqAcc{
+    padding: 15px 15px 300px 15px;
+}

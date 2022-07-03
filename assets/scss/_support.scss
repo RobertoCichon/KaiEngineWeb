@@ -1,0 +1,71 @@
+
+.supportMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 25px;
+        
+    }
+}
+
+
+
+
+.supportHeader{
+    h3{
+    background-color:rgb(12, 12, 12);
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 10px;
+    }
+
+    p{
+        font-family: 'Montserrat', sans-serif;
+    
+        margin: 10px;
+        font-weight: 700;
+    }
+
+}
+
+
+.supportName{
+    margin: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.supportEmail{
+    margin: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.supportText{
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.supportSend{
+margin: 10px 10px 250px 10px;
+width: 100px;
+align-self: center;
+border-radius: 15px;
+border-width: 3px;
+border-color: rgb(77, 77, 77);
+background-color: rgb(12, 12, 12);
+color: white;
+padding: 10px;
+}
