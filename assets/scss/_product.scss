@@ -1,4 +1,12 @@
 
+$imgEff: (
+    size: scale(1.05),
+    shadow: 1px 1px 10px rgba(0, 0, 0, 0.486),
+    time: 1s
+);
+
+
+
 .prDownload{
     display: flex;
     flex-direction: column;
@@ -74,7 +82,8 @@
             grid-area: txt;
             font-weight: 700;
             align-self: center;
-            text-align: center;                       
+            text-align: center;     
+            font-size: 8px;                  
         }
     }
 
@@ -83,9 +92,9 @@
         height: 100%;
 
         &:hover{
-            transform: scale(1.05);
-            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
-            transition: 1s;
+            transform: map-get($imgEff , size );
+            box-shadow: map-get($imgEff , shadow );
+            transition: map-get($imgEff , time );
         }
     }
 
@@ -117,10 +126,12 @@
 
 
 .productDiv2{
-    display: flex;
+   /* display: flex;
     flex-direction: column;
     color: rgb(0, 0, 0);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;*/
+    
+    @extend .productDiv1;
     
 
     img{
@@ -128,9 +139,9 @@
         height: 100%;
 
         &:hover{
-            transform: scale(1.05);
-        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
-        transition: 1s;
+            transform: map-get($imgEff , size );
+            box-shadow: map-get($imgEff , shadow );
+            transition: map-get($imgEff , time );
         }
     }
 
@@ -139,7 +150,7 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2,1fr);
         gap: 10px;
-        padding: 20px 20px 20px 20px;
+        padding: 20px 20px 40px 20px;
         grid-template-areas: "img3 img3 txt2 txt2"
                              "img4 img5 img5 img5";
 
@@ -148,6 +159,7 @@
             font-weight: 700;
             align-self: center;
             text-align: center;  
+            font-size: 8px;
         }
     }
 

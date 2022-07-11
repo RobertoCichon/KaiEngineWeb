@@ -1,0 +1,18 @@
+-Keywords-
+Index: "Game, Engine, Motor, C#, Python, C++"
+Soporte: "Soporte, Ayuda, Problema, Duda"
+Producto: "Game, Engine, Motor, C#, Python, C++, Descargar"
+Nosotros: "Nosotros, Equipo"
+FAQ: "FAQ, Duda, Pregunta, Motor"
+
+-Descripciones-
+Index: "KaiEngine es el motor definitivo para la creacion de todo tipo de contenido multimedia. Desde videojuegos hasta peliculas, es posible con KaiEngine."
+Soporte: "Si tienes cualquier problema o duda con nuestra herramienta nuestro equipo de soporte te brindara la ayuda que necesitas"
+Producto: "Descarga KaiEngine y disfruta de todas sus ventajas! Programa en el lenguaje que quieras, soporte para C#, Phyton, C++"
+Nosotros: "Descubre al equipo que esta desarrollando KaiEngine."
+FAQ: "Tienes alguna pregunta sobre nuestro motor? Aqui puedes consultar las dudas mas frecuentes!"
+
+-Cambios-
+
+·Añadidos "Alt" a todas las paginas.
+
