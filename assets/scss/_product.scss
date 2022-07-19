@@ -47,7 +47,6 @@ $imgEff: (
 
 
 
-
 .prHead{
     
     color: white;
@@ -57,6 +56,9 @@ $imgEff: (
 
     background-image: url(../img/header03.jpg);
     background-size: 100%;
+    img{
+        width: 25%;
+    }
 }
 
 
@@ -195,7 +197,9 @@ $imgEff: (
     background-color: #131313;
     text-align: center;
     h3{
-        padding-top: 5px;
+        padding-top: 10px;
+        margin: 0px;
+        color: #5a5a5a;
     }
     img{
         width: 90px;

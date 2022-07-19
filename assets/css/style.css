@@ -14,6 +14,9 @@
   text-align: center;
   border-radius: 10px;
 }
+.faqHeader h2 {
+  margin: 10px;
+}
 
 .faqDiv {
   font-family: "Montserrat", sans-serif;
@@ -77,6 +80,10 @@ footer div h5 {
   transition: 1s;
 }
 
+.navIcon {
+  height: 50px;
+}
+
 .mainHeader {
   display: flex;
   flex-direction: column;
@@ -114,6 +121,9 @@ footer div h5 {
 }
 .mainDesc p {
   text-align: center;
+}
+.mainDesc img {
+  width: 10%;
 }
 
 .mainNews {
@@ -165,8 +175,7 @@ footer div h5 {
 }
 
 .mainNewsTarjetas:hover {
-  transform: scale(1.1);
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.486);
   transition: 1s;
 }
 
@@ -199,7 +208,7 @@ footer div h5 {
   background-color: rgb(12, 12, 12);
   color: white;
   font-family: "Staatliches", cursive;
-  padding: 10px;
+  padding: 20px;
   margin: 15px;
   text-align: center;
   border-radius: 10px;
@@ -227,6 +236,11 @@ footer div h5 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   padding: 15px;
+}
+.nosotrosTag:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.486);
+  transition: 1s;
 }
 
 .prDownload {
@@ -264,6 +278,9 @@ footer div h5 {
   padding: 50px;
   background-image: url(../img/header03.jpg);
   background-size: 100%;
+}
+.prHead img {
+  width: 25%;
 }
 
 .productDiv1, .productDiv2 {
@@ -374,7 +391,9 @@ footer div h5 {
   text-align: center;
 }
 .mainProgramming h3 {
-  padding-top: 5px;
+  padding-top: 10px;
+  margin: 0px;
+  color: #5a5a5a;
 }
 .mainProgramming img {
   width: 90px;
@@ -394,8 +413,25 @@ footer div h5 {
 .supportMain div {
   display: flex;
   flex-direction: column;
-  width: 70%;
-  margin: 25px;
+  margin: 10px;
+}
+
+.sMain div {
+  padding: 30px 30px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+}
+
+.supportDesc {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+  font-weight: 700;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
 }
 
 .supportHeader h3 {
@@ -403,14 +439,9 @@ footer div h5 {
   color: white;
   font-family: "Staatliches", cursive;
   text-align: center;
-  padding: 7px;
+  padding: 20px;
   margin: 10px;
   border-radius: 10px;
-}
-.supportHeader p {
-  font-family: "Montserrat", sans-serif;
-  margin: 10px;
-  font-weight: 700;
 }
 
 .supportName {
@@ -435,8 +466,7 @@ footer div h5 {
 }
 
 .supportSend {
-  margin: 10px 10px 250px 10px;
-  width: 100px;
+  margin: 10px 10px 10px 10px;
   align-self: center;
   border-radius: 15px;
   border-width: 3px;

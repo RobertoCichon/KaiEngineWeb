@@ -9,12 +9,14 @@
     <title>Soporte</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../assets/img/optimized/favicon.png">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">KAIENGINE</a>
+          <a class="navbar-brand" href="./index.html"><img class="navIcon" src="../assets/img/optimized/KE_Small.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,24 +47,31 @@
 
     <header class="supportHeader">
         <h3>Soporte</h3>
-        
-        <p>¿Tienes algun problema o duda con nuestras herramientas? Primero te recomendamos que heches un vistazo a la seccion de preguntas frecuentes<a href="./faq.html" >(FAQ)</a>Si aun asi sigues con dudas puedes rellenar este formulario y nuestro servicio de soporte te atendera lo antes posible.</p>  
-        
-
     </header>
-    <main class="supportMain">
+    
+    <main class="sMain">
+      <div>
+      <div class="supportDesc" data-aos="zoom-in">
 
+        <p>¿Tienes algun problema o duda con nuestras herramientas? Primero te recomendamos que heches un vistazo a la seccion de preguntas frecuentes <a href="./faq.html" >(FAQ)</a> Si aun asi sigues con dudas puedes rellenar este formulario y nuestro servicio de soporte te atendera lo antes posible.</p>  
+
+      </div>
+      <div class="supportMain">
         <form>
-            <div>
-                <input type="text" name="" id="" required class="supportName" placeholder="Nombre y Apellidos"> 
-                <input type="email" name="Email" id="" required class="supportEmail" placeholder="Email">
-                <textarea name="textArea" id="" cols="30" rows="10" required class="supportText"></textarea>
-                <input type="submit" value="Enviar" class="supportSend">
-            </div>
+          <div>
+            <input type="text" name="" id="" required class="supportName" placeholder="Nombre y Apellidos"> 
+            <input type="email" name="Email" id="" required class="supportEmail" placeholder="Email">
+            <textarea name="textArea" id="" cols="30" rows="10" required class="supportText"></textarea>
+            <input type="submit" value="Enviar" class="supportSend">
+          </div>
         </form>
+      </div>
+    </div>
+        
         
 
     </main>
+
     <aside></aside>
     <footer>
         <p>"KaiEngine", KaiEngine logos, and other KaiEngine trademarks are trademarks or registered trademarks of Kai Technologies or its affiliates in the U.S. and elsewhere. Other names or brands are trademarks of their respective owners.</p>
@@ -79,5 +88,9 @@
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
