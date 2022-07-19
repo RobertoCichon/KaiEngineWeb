@@ -217,7 +217,7 @@ footer div h5 {
 .nosotrosTag {
   display: flex;
   flex-direction: column;
-  border-radius: 15px;
+  border-radius: 100px;
   background-color: rgb(12, 12, 12);
   width: 25%;
   color: white;
@@ -225,7 +225,7 @@ footer div h5 {
 }
 .nosotrosTag img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 .nosotrosTag p {
   font-family: "Montserrat", sans-serif;
@@ -276,7 +276,7 @@ footer div h5 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   padding: 50px;
-  background-image: url(../img/header03.jpg);
+  background-image: url(../img/optimized/header03.jpg);
   background-size: 100%;
 }
 .prHead img {
@@ -616,4 +616,8 @@ footer div h5 {
   footer div h5 {
     font-size: 8px;
   }
+}
+.bg-theme {
+  background-color: rgb(12, 12, 12);
+  color: white;
 }/*# sourceMappingURL=style.css.map */
