@@ -5,6 +5,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .nosotrosTitle{
@@ -20,15 +21,16 @@
 .nosotrosTag{
     display: flex;
     flex-direction: column;
-    border-radius: 100px;
+    border-radius: 50px;
     background-color: rgb(12, 12, 12);
     width: 25%;
     color:  white;
     margin: 15px;
+    padding: 10px;
 
     img{
         width: 100%;
-        border-radius: 50px;
+        border-radius: 40px;
     }
 
     p{

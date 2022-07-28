@@ -148,7 +148,7 @@ footer div h5 {
   padding: 15px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 16px;
 }
 .mainNewsTarjetas img {
   width: 100%;
@@ -202,6 +202,7 @@ footer div h5 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .nosotrosTitle {
@@ -217,15 +218,16 @@ footer div h5 {
 .nosotrosTag {
   display: flex;
   flex-direction: column;
-  border-radius: 100px;
+  border-radius: 50px;
   background-color: rgb(12, 12, 12);
   width: 25%;
   color: white;
   margin: 15px;
+  padding: 10px;
 }
 .nosotrosTag img {
   width: 100%;
-  border-radius: 50px;
+  border-radius: 40px;
 }
 .nosotrosTag p {
   font-family: "Montserrat", sans-serif;
@@ -303,6 +305,7 @@ footer div h5 {
   align-self: center;
   text-align: center;
   font-size: 8px;
+  padding: 10px;
 }
 .productDiv1 img, .productDiv2 img {
   width: 100%;
@@ -357,6 +360,7 @@ footer div h5 {
   align-self: center;
   text-align: center;
   font-size: 8px;
+  padding: 10px;
 }
 .productDiv2 h3 {
   text-align: center;
